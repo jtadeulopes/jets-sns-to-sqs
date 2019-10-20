@@ -1,11 +1,14 @@
-# Jets Project
+# Jets SQS Example with Dead Letter Queue
 
-This README would normally document whatever steps are necessary to get the application up and running.
+* [resources/list.rb](app/shared/resources/list.rb)
+* [extensions/subscribe_extension.rb](app/shared/extensions/subscribe_extension.rb)
 
-Things you might want to cover:
+Answers Jets Community Question: [Subscribe SQS queue to SNS topic](https://community.rubyonjets.com/t/subscribe-sqs-queue-to-sns-topic/301)
 
-* Dependencies
-* Configuration
-* Database setup
-* How to run the test suite
-* Deployment instructions
+## Important
+
+Make sure you are on at least Jets v2.3.2.  [Shared Resource Extensions](https://rubyonjets.com/docs/shared-resources/extensions/) were fixed in the release.
+
+Deploy app:
+
+    jets deploy
