@@ -7,7 +7,7 @@ Answers Jets Community Question: [Subscribe SQS queue to SNS topic](https://comm
 
 ## Important
 
-Make sure you are on at least Jets v2.3.2.  [Shared Resource Extensions](https://rubyonjets.com/docs/shared-resources/extensions/) were fixed in the release.
+Make sure you are on at least Jets v2.3.3.  [Shared Resource Extensions](https://rubyonjets.com/docs/shared-resources/extensions/) and `sqs_queue` were fixed in the release.
 
 Deploy app:
 

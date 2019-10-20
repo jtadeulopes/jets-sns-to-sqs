@@ -95,7 +95,7 @@ GEM
     hashie (3.6.0)
     i18n (1.7.0)
       concurrent-ruby (~> 1.0)
-    jets (2.3.2)
+    jets (2.3.3)
       actionmailer (~> 6.0.0)
       actionpack (~> 6.0.0)
       actionview (~> 6.0.0)
