@@ -1,4 +1,4 @@
-# Jets SQS Example with Dead Letter Queue
+# Jets SNS to SQS Example 
 
 * [resources/list.rb](app/shared/resources/list.rb)
 * [extensions/subscribe_extension.rb](app/shared/extensions/subscribe_extension.rb)
