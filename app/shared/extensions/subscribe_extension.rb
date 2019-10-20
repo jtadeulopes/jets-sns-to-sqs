@@ -4,7 +4,7 @@ module SubscribeExtension
     resource(logical_id, "AWS::SNS::Subscription",
       protocol: "sqs",
       endpoint: get_att("#{queue}.Arn"),
-      topic_arn: get_att("#{topic}.Arn"),
+      topic_arn: ref(topic),
     )
   end
 end
