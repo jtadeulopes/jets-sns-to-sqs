@@ -1,5 +1,7 @@
 # Jets SNS to SQS Example 
 
+[![BoltOps Badge](https://img.boltops.com/boltops/badges/boltops-badge.png)](https://www.boltops.com)
+
 * [resources/list.rb](app/shared/resources/list.rb)
 * [extensions/subscribe_extension.rb](app/shared/extensions/subscribe_extension.rb)
 
